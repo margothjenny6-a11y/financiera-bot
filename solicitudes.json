@@ -1,0 +1,643 @@
+[
+  {
+    "id": "76708ba8",
+    "usuario": "test",
+    "estado": "pendiente"
+  },
+  {
+    "id": "e1f30b6a",
+    "usuario": "fdfdf",
+    "estado": "aprobado"
+  },
+  {
+    "id": "4dadfdc8",
+    "usuario": "eeerrr",
+    "estado": "rechazado"
+  },
+  {
+    "id": "914c5072",
+    "usuario": "wswere",
+    "estado": "aprobado"
+  },
+  {
+    "id": "db9db52f",
+    "usuario": "sdfsefe",
+    "estado": "rechazado"
+  },
+  {
+    "id": "73d91a7c",
+    "usuario": "dsdcdwe",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "01:20:02",
+    "fecha": "18/04/2026"
+  },
+  {
+    "id": "8ebb68f0",
+    "usuario": "wewwwww2222",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "01:25:52",
+    "fecha": "18/04/2026"
+  },
+  {
+    "id": 1,
+    "usuario": "juanito232",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "01:34:29",
+    "fecha": "18/04/2026",
+    "message_id": 16
+  },
+  {
+    "id": 2,
+    "usuario": "usertest45",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "08:43:27",
+    "fecha": "18/04/2026",
+    "message_id": 17
+  },
+  {
+    "id": 3,
+    "usuario": "eedsdse223",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "08:50:27",
+    "fecha": "18/04/2026",
+    "message_id": 19
+  },
+  {
+    "id": 4,
+    "usuario": "890898uu",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "08:50:54",
+    "fecha": "18/04/2026",
+    "message_id": 20
+  },
+  {
+    "id": 5,
+    "usuario": "ederrr232",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "08:54:09",
+    "fecha": "18/04/2026",
+    "message_id": 22
+  },
+  {
+    "id": 6,
+    "usuario": "i89ki8ju",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "08:54:53",
+    "fecha": "18/04/2026",
+    "message_id": 24
+  },
+  {
+    "id": 7,
+    "usuario": "232434rrerr",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "08:58:03",
+    "fecha": "18/04/2026",
+    "message_id": 26
+  },
+  {
+    "id": 8,
+    "usuario": "sssssssss",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "09:31:37",
+    "fecha": "18/04/2026",
+    "message_id": 30
+  },
+  {
+    "id": 9,
+    "usuario": "yhujnn",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "10:37:00",
+    "fecha": "18/04/2026",
+    "message_id": 31
+  },
+  {
+    "id": 10,
+    "usuario": "eweerr3434",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "10:42:07",
+    "fecha": "18/04/2026",
+    "message_id": 38
+  },
+  {
+    "id": 11,
+    "usuario": "yjujuj",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "10:44:00",
+    "fecha": "18/04/2026",
+    "message_id": 39
+  },
+  {
+    "id": 12,
+    "usuario": "rober",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "10:49:07",
+    "fecha": "18/04/2026",
+    "message_id": 41
+  },
+  {
+    "id": 13,
+    "usuario": "123e23ed32",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "10:51:03",
+    "fecha": "18/04/2026",
+    "message_id": 42
+  },
+  {
+    "id": 14,
+    "usuario": "wswsww",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "10:53:39",
+    "fecha": "18/04/2026",
+    "message_id": 43
+  },
+  {
+    "id": 15,
+    "usuario": "tgtgbg",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:03:27",
+    "fecha": "18/04/2026",
+    "message_id": 44
+  },
+  {
+    "id": 16,
+    "usuario": "ujujuu",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:04:51",
+    "fecha": "18/04/2026",
+    "message_id": 46
+  },
+  {
+    "id": 17,
+    "usuario": "ujujuj",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:07:27",
+    "fecha": "18/04/2026",
+    "message_id": 47
+  },
+  {
+    "id": 18,
+    "usuario": "yyyyy",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:11:01",
+    "fecha": "18/04/2026",
+    "message_id": 49
+  },
+  {
+    "id": 19,
+    "usuario": "yuyuyu",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:20:59",
+    "fecha": "18/04/2026",
+    "message_id": 51
+  },
+  {
+    "id": 20,
+    "usuario": "ujujuju",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:21:37",
+    "fecha": "18/04/2026",
+    "message_id": 53
+  },
+  {
+    "id": 21,
+    "usuario": "sdcsdcdsc",
+    "estado": "aprobado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "11:23:32",
+    "fecha": "18/04/2026",
+    "message_id": 55
+  },
+  {
+    "id": 22,
+    "usuario": "test1",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "13:21:01",
+    "fecha": "18/04/2026",
+    "message_id": 56
+  },
+  {
+    "id": 23,
+    "usuario": "gttggtg",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "13:28:58",
+    "fecha": "18/04/2026",
+    "message_id": 58
+  },
+  {
+    "id": 24,
+    "usuario": "ujuiiij",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "13:43:58",
+    "fecha": "18/04/2026",
+    "message_id": 61
+  },
+  {
+    "id": 25,
+    "usuario": "832eej3",
+    "estado": "pendiente",
+    "ip": "186.119.191.42",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "15:48:24",
+    "fecha": "18/04/2026",
+    "message_id": 65
+  },
+  {
+    "id": 26,
+    "usuario": "yheeh",
+    "estado": "pendiente",
+    "ip": "186.119.191.42",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "16:01:57",
+    "fecha": "18/04/2026",
+    "message_id": 68
+  },
+  {
+    "id": 27,
+    "usuario": "dwedewd33244",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:15:53",
+    "fecha": "19/04/2026",
+    "message_id": 72
+  },
+  {
+    "id": 28,
+    "usuario": "yhyuy",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:28:12",
+    "fecha": "19/04/2026",
+    "message_id": 75
+  },
+  {
+    "id": 29,
+    "usuario": "elkin45",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:29:07",
+    "fecha": "19/04/2026",
+    "message_id": 76
+  },
+  {
+    "id": 30,
+    "usuario": "yhdne39393",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:54:50",
+    "fecha": "19/04/2026"
+  },
+  {
+    "id": 31,
+    "usuario": "wsedede",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:56:37",
+    "fecha": "19/04/2026"
+  },
+  {
+    "id": 32,
+    "usuario": "ededed",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:59:10",
+    "fecha": "19/04/2026"
+  },
+  {
+    "id": 33,
+    "usuario": "bebe12",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "20:00:05",
+    "fecha": "19/04/2026"
+  },
+  {
+    "id": 34,
+    "usuario": "sssxsx",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "20:01:34",
+    "fecha": "19/04/2026"
+  },
+  {
+    "id": 35,
+    "usuario": "pepe",
+    "estado": "aprobado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "20:02:29",
+    "fecha": "19/04/2026",
+    "message_id": 77
+  },
+  {
+    "id": 36,
+    "usuario": "etgdtdgdg",
+    "clave": "",
+    "estado": "aprobado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "20:45:31",
+    "fecha": "19/04/2026",
+    "message_id": 78
+  },
+  {
+    "id": 37,
+    "usuario": "elkin12",
+    "clave": "0909",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "20:59:46",
+    "fecha": "19/04/2026",
+    "message_id": 79
+  },
+  {
+    "id": 38,
+    "usuario": "tgtg6677",
+    "clave": "6676",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "01:28:33",
+    "fecha": "20/04/2026",
+    "message_id": 82
+  },
+  {
+    "id": 39,
+    "usuario": "ewwerew",
+    "clave": "2131",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "16:28:58",
+    "fecha": "20/04/2026",
+    "message_id": 85
+  },
+  {
+    "id": 40,
+    "usuario": "wqwswq",
+    "clave": "2222",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "16:30:12",
+    "fecha": "20/04/2026",
+    "message_id": 86
+  },
+  {
+    "id": 41,
+    "usuario": "edede",
+    "clave": "3333",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "16:40:44",
+    "fecha": "20/04/2026",
+    "message_id": 91
+  },
+  {
+    "id": 42,
+    "usuario": "22122wswww",
+    "clave": "2121",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "16:43:15",
+    "fecha": "20/04/2026",
+    "message_id": 92
+  },
+  {
+    "id": 43,
+    "usuario": "tytytyt",
+    "clave": "2323",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "17:01:32",
+    "fecha": "20/04/2026",
+    "message_id": 93
+  },
+  {
+    "id": 44,
+    "usuario": "yuyu787",
+    "clave": "8888",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "17:06:12",
+    "fecha": "20/04/2026",
+    "message_id": 94
+  },
+  {
+    "id": 45,
+    "usuario": "yuhjmn6767",
+    "clave": "9999",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "17:06:42",
+    "fecha": "20/04/2026",
+    "message_id": 95
+  },
+  {
+    "id": 46,
+    "usuario": "wwwedwe22",
+    "clave": "2222",
+    "estado": "rechazado",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "17:48:10",
+    "fecha": "20/04/2026",
+    "message_id": 99
+  },
+  {
+    "id": 47,
+    "usuario": "qwqwq12",
+    "clave": "2232",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "17:48:49",
+    "fecha": "20/04/2026",
+    "message_id": 100
+  },
+  {
+    "id": 48,
+    "usuario": "ujuijkiui",
+    "clave": "4545",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "18:09:13",
+    "fecha": "20/04/2026",
+    "message_id": 104
+  },
+  {
+    "id": 49,
+    "usuario": "errerre",
+    "clave": "1212",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "18:11:12",
+    "fecha": "20/04/2026",
+    "message_id": 107
+  },
+  {
+    "id": 50,
+    "usuario": "wqqw222",
+    "clave": "3323",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:42:40",
+    "fecha": "20/04/2026",
+    "message_id": 110
+  },
+  {
+    "id": 51,
+    "usuario": "22222",
+    "clave": "3333",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:44:46",
+    "fecha": "20/04/2026",
+    "message_id": 111
+  },
+  {
+    "id": 52,
+    "usuario": "eeed2323",
+    "clave": "3445",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "19:48:48",
+    "fecha": "20/04/2026",
+    "message_id": 113
+  },
+  {
+    "id": 53,
+    "usuario": "joseluis12",
+    "clave": "3456",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "20:30:53",
+    "fecha": "20/04/2026",
+    "message_id": 116
+  },
+  {
+    "id": 54,
+    "usuario": "juanito",
+    "clave": "1212",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "23:02:42",
+    "fecha": "20/04/2026",
+    "message_id": 119
+  },
+  {
+    "id": 55,
+    "usuario": "juancarlos12",
+    "clave": "1212",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "13:12:44",
+    "fecha": "21/04/2026",
+    "message_id": 122
+  },
+  {
+    "id": 56,
+    "usuario": "joseluis12",
+    "clave": "1212",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "13:16:04",
+    "fecha": "21/04/2026",
+    "message_id": 123
+  },
+  {
+    "id": 57,
+    "usuario": "hugo12",
+    "clave": "3434",
+    "estado": "pendiente",
+    "ip": "167.0.245.88",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "13:21:45",
+    "fecha": "21/04/2026",
+    "message_id": 126
+  },
+  {
+    "id": 58,
+    "usuario": "tvytgyhh667",
+    "clave": "6666",
+    "estado": "pendiente",
+    "ip": "191.156.246.240",
+    "ciudad": "Barranquilla, Colombia",
+    "hora": "16:09:16",
+    "fecha": "21/04/2026",
+    "message_id": 131
+  }
+]

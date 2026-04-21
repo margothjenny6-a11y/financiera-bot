@@ -1,0 +1,314 @@
+[
+  {
+    "id": "9cd58890",
+    "clave": "666666",
+    "estado": "pendiente",
+    "hora": "01:26:07"
+  },
+  {
+    "id": "4d602ff9",
+    "clave": "666666",
+    "estado": "invalida",
+    "hora": "01:26:10"
+  },
+  {
+    "id": "e0932f9c",
+    "clave": "666666",
+    "estado": "pendiente",
+    "hora": "01:26:27"
+  },
+  {
+    "id": 1,
+    "clave": "455657",
+    "solicitud_id": null,
+    "estado": "invalida",
+    "hora": "08:43:50"
+  },
+  {
+    "id": 2,
+    "clave": "787678",
+    "solicitud_id": null,
+    "estado": "aprobado",
+    "hora": "08:51:12"
+  },
+  {
+    "id": 3,
+    "clave": "111111",
+    "solicitud_id": 5,
+    "estado": "aprobado",
+    "hora": "08:54:23"
+  },
+  {
+    "id": 4,
+    "clave": "900909",
+    "solicitud_id": 6,
+    "estado": "invalida",
+    "hora": "08:55:05"
+  },
+  {
+    "id": 5,
+    "clave": "909090",
+    "solicitud_id": 7,
+    "estado": "invalida",
+    "hora": "08:58:16"
+  },
+  {
+    "id": 6,
+    "clave": "909888",
+    "solicitud_id": 7,
+    "estado": "invalida",
+    "hora": "08:58:38"
+  },
+  {
+    "id": 7,
+    "clave": "667676",
+    "solicitud_id": 7,
+    "estado": "aprobado",
+    "hora": "08:58:55"
+  },
+  {
+    "id": 8,
+    "clave": "676767",
+    "solicitud_id": 9,
+    "estado": "aprobado",
+    "hora": "10:37:17"
+  },
+  {
+    "id": 9,
+    "clave": "555555",
+    "solicitud_id": 11,
+    "estado": "aprobado",
+    "hora": "10:44:16"
+  },
+  {
+    "id": 10,
+    "clave": "777777",
+    "solicitud_id": 15,
+    "estado": "invalida",
+    "hora": "11:03:46"
+  },
+  {
+    "id": 11,
+    "clave": "676767",
+    "solicitud_id": 19,
+    "estado": "aprobado",
+    "hora": "11:21:13"
+  },
+  {
+    "id": 12,
+    "clave": "787878",
+    "solicitud_id": 24,
+    "estado": "invalida",
+    "hora": "13:44:30"
+  },
+  {
+    "id": 13,
+    "clave": "788888",
+    "solicitud_id": 24,
+    "estado": "pendiente",
+    "hora": "13:44:54"
+  },
+  {
+    "id": 14,
+    "clave": "435554",
+    "solicitud_id": 25,
+    "estado": "pendiente",
+    "hora": "15:49:21"
+  },
+  {
+    "id": 15,
+    "clave": "222222",
+    "solicitud_id": 25,
+    "estado": "pendiente",
+    "hora": "15:49:34"
+  },
+  {
+    "id": 16,
+    "clave": "223333",
+    "solicitud_id": 26,
+    "estado": "pendiente",
+    "hora": "16:02:16"
+  },
+  {
+    "id": 17,
+    "clave": "777777",
+    "solicitud_id": 27,
+    "estado": "pendiente",
+    "hora": "19:16:18"
+  },
+  {
+    "id": 18,
+    "clave": "898989",
+    "solicitud_id": 27,
+    "estado": "pendiente",
+    "hora": "19:16:37"
+  },
+  {
+    "id": 19,
+    "clave": "787878",
+    "solicitud_id": 37,
+    "estado": "pendiente",
+    "hora": "21:00:14"
+  },
+  {
+    "id": 20,
+    "clave": "666666",
+    "solicitud_id": 38,
+    "estado": "pendiente",
+    "hora": "01:28:56"
+  },
+  {
+    "id": 21,
+    "clave": "090909",
+    "solicitud_id": 38,
+    "estado": "aprobado",
+    "hora": "01:29:18"
+  },
+  {
+    "id": 22,
+    "clave": "456666",
+    "solicitud_id": 40,
+    "estado": "pendiente",
+    "hora": "16:31:04"
+  },
+  {
+    "id": 23,
+    "clave": "777777",
+    "solicitud_id": 40,
+    "estado": "pendiente",
+    "hora": "16:31:39"
+  },
+  {
+    "id": 24,
+    "clave": "444444",
+    "solicitud_id": 40,
+    "estado": "pendiente",
+    "hora": "16:31:56"
+  },
+  {
+    "id": 25,
+    "clave": "232323",
+    "solicitud_id": 45,
+    "estado": "invalida",
+    "hora": "17:07:04"
+  },
+  {
+    "id": 26,
+    "clave": "000000",
+    "solicitud_id": 45,
+    "estado": "pendiente",
+    "hora": "17:07:19"
+  },
+  {
+    "id": 27,
+    "clave": "676767",
+    "solicitud_id": 47,
+    "estado": "pendiente",
+    "hora": "17:49:04"
+  },
+  {
+    "id": 28,
+    "clave": "000000",
+    "solicitud_id": 47,
+    "estado": "pendiente",
+    "hora": "17:49:32"
+  },
+  {
+    "id": 29,
+    "clave": "676767",
+    "solicitud_id": 48,
+    "estado": "invalida",
+    "hora": "18:09:31"
+  },
+  {
+    "id": 30,
+    "clave": "090909",
+    "solicitud_id": 48,
+    "estado": "pendiente",
+    "hora": "18:10:00"
+  },
+  {
+    "id": 31,
+    "clave": "222222",
+    "solicitud_id": 49,
+    "estado": "pendiente",
+    "hora": "18:11:26"
+  },
+  {
+    "id": 32,
+    "clave": "777777",
+    "solicitud_id": 50,
+    "estado": "pendiente",
+    "hora": "19:42:58"
+  },
+  {
+    "id": 33,
+    "clave": "000000",
+    "solicitud_id": 51,
+    "estado": "pendiente",
+    "hora": "19:45:35"
+  },
+  {
+    "id": 34,
+    "clave": "999999",
+    "solicitud_id": 51,
+    "estado": "pendiente",
+    "hora": "19:46:07"
+  },
+  {
+    "id": 35,
+    "clave": "878877",
+    "solicitud_id": 51,
+    "estado": "pendiente",
+    "hora": "19:46:44"
+  },
+  {
+    "id": 36,
+    "clave": "000000",
+    "solicitud_id": 52,
+    "estado": "pendiente",
+    "hora": "19:49:00"
+  },
+  {
+    "id": 37,
+    "clave": "989898",
+    "solicitud_id": 52,
+    "estado": "pendiente",
+    "hora": "19:49:16"
+  },
+  {
+    "id": 38,
+    "clave": "111111",
+    "solicitud_id": 55,
+    "estado": "pendiente",
+    "hora": "13:13:03"
+  },
+  {
+    "id": 39,
+    "clave": "121212",
+    "solicitud_id": 57,
+    "estado": "invalida",
+    "hora": "13:22:12"
+  },
+  {
+    "id": 40,
+    "clave": "121212",
+    "solicitud_id": 57,
+    "estado": "pendiente",
+    "hora": "13:22:34"
+  },
+  {
+    "id": 41,
+    "clave": "888888",
+    "solicitud_id": 58,
+    "estado": "invalida",
+    "hora": "16:10:42"
+  },
+  {
+    "id": 42,
+    "clave": "767767",
+    "solicitud_id": 58,
+    "estado": "pendiente",
+    "hora": "16:11:17"
+  }
+]

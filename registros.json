@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "nombre": "ujuujuj",
+    "apellido": "hhyhhh",
+    "cedula": "1212211",
+    "telefono": "2223323343",
+    "correo": "gfgvfvf@jdjdj.com",
+    "estado": "aprobado",
+    "hora": "11:08:01",
+    "fecha": "18/04/2026"
+  },
+  {
+    "id": 2,
+    "nombre": "dcecece",
+    "apellido": "VTRCRCVGF",
+    "cedula": "4466555665",
+    "telefono": "5446444646",
+    "correo": "BFVFVFV@JJK.COM",
+    "solicitud_id": 18,
+    "estado": "rechazado",
+    "hora": "11:11:40",
+    "fecha": "18/04/2026"
+  },
+  {
+    "id": 3,
+    "nombre": "uneueuenenduendue",
+    "apellido": "uneuened",
+    "cedula": "112211212",
+    "telefono": "3103100909",
+    "correo": "hydnd@jnsws.com",
+    "solicitud_id": 20,
+    "estado": "aprobado",
+    "hora": "11:22:31",
+    "fecha": "18/04/2026"
+  },
+  {
+    "id": 4,
+    "nombre": "josemanuel",
+    "apellido": "hernandez",
+    "cedula": "111212121212122",
+    "telefono": "1212202102",
+    "correo": "nnsn@gdg.com",
+    "solicitud_id": 37,
+    "estado": "pendiente",
+    "hora": "21:01:14",
+    "fecha": "19/04/2026"
+  }
+]
