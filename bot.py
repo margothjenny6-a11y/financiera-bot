@@ -294,4 +294,4 @@ def correr_bot():
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
     app.add_handler(CallbackQueryHandler(manejar_boton))
-    app.run_polling()
+    app.run_polling(drop_pending_updates=True)
