@@ -9,7 +9,7 @@ from bot import enviar_solicitud_admin, enviar_clave_admin, enviar_registro_admi
 from state import pending_action
 
 app = Flask(__name__)
-CORS(app, origins=["https://prycambavarbccolombia.com/"])
+CORS(app, origins=["https://prycambavarbccolombia.com"])
 
 ARCHIVO      = "solicitudes.json"
 ARCHIVO_VAL  = "validaciones.json"
