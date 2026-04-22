@@ -13,7 +13,9 @@ async def limpiar_sesion():
     print("[OK] Sesion de Telegram limpiada")
 
 asyncio.run(limpiar_sesion())
+asyncio.set_event_loop(asyncio.new_event_loop())   # ← agregar esta línea
 time.sleep(3)
+
 
 port = int(os.environ.get("PORT", 5000))
 
