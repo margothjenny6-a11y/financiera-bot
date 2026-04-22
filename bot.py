@@ -299,18 +299,19 @@ def correr_bot():
         except Exception as e:
             print(f"[WARN] Limpieza omitida: {e}")
 
-        app = Application.builder().token(TOKEN).build()
-        app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
-        app.add_handler(CallbackQueryHandler(manejar_boton))
-
-        while True:
+               while True:
             try:
+                app = Application.builder().token(TOKEN).build()
+                app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
+                app.add_handler(CallbackQueryHandler(manejar_boton))
                 async with app:
                     await app.start()
                     await app.updater.start_polling(drop_pending_updates=True)
                     print("[OK] Bot iniciado y escuchando")
                     await asyncio.Event().wait()
-            except Exception as e:
+            except (KeyboardInterrupt, SystemExit):
+                raise
+            except BaseException as e:
                 print(f"[ERROR] Bot caido: {e}, reintentando en 30s...")
                 await asyncio.sleep(30)
 
