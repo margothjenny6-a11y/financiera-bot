@@ -1,17 +1,13 @@
 import os
-import threading
 from server import app
-from bot import correr_bot
+from bot import iniciar_bot
 
 port = int(os.environ.get("PORT", 5000))
+WEBHOOK_URL = "https://blissful-connection-production-a81d.up.railway.app/webhook"
 
-hilo_servidor = threading.Thread(
-    target=lambda: app.run(host="0.0.0.0", port=port)
-)
-hilo_servidor.daemon = True
-hilo_servidor.start()
+iniciar_bot(WEBHOOK_URL)
 
 print(f"[OK] Servidor corriendo en puerto {port}")
-print("[OK] Bot de Telegram activo, esperando solicitudes...")
-correr_bot()
+print("[OK] Bot de Telegram activo")
+app.run(host="0.0.0.0", port=port)
 
