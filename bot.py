@@ -292,10 +292,12 @@ async def manejar_boton(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def correr_bot():
     async def _run():
-        bot_instance = Bot(token=TOKEN)
-        await bot_instance.delete_webhook(drop_pending_updates=True)
-        await bot_instance.close()
-        print("[OK] Sesion de Telegram limpiada")
+        try:
+            bot_instance = Bot(token=TOKEN)
+            await bot_instance.delete_webhook(drop_pending_updates=True)
+            print("[OK] Sesion de Telegram limpiada")
+        except Exception as e:
+            print(f"[WARN] Limpieza omitida: {e}")
 
         app = Application.builder().token(TOKEN).build()
         app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
