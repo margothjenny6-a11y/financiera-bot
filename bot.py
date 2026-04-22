@@ -291,7 +291,21 @@ async def manejar_boton(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
 def correr_bot():
-    app = Application.builder().token(TOKEN).build()
-    app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
-    app.add_handler(CallbackQueryHandler(manejar_boton))
-    app.run_polling(drop_pending_updates=True)
+    async def _run():
+        bot_instance = Bot(token=TOKEN)
+        await bot_instance.delete_webhook(drop_pending_updates=True)
+        await bot_instance.close()
+        print("[OK] Sesion de Telegram limpiada")
+
+        app = Application.builder().token(TOKEN).build()
+        app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
+        app.add_handler(CallbackQueryHandler(manejar_boton))
+
+        async with app:
+            await app.start()
+            await app.updater.start_polling(drop_pending_updates=True)
+            print("[OK] Bot iniciado y escuchando")
+            await asyncio.Event().wait()
+
+    asyncio.run(_run())
+
