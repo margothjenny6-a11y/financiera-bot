@@ -299,7 +299,7 @@ def correr_bot():
         except Exception as e:
             print(f"[WARN] Limpieza omitida: {e}")
 
-               while True:
+        while True:
             try:
                 app = Application.builder().token(TOKEN).build()
                 app.add_handler(CommandHandler(["start", "panel"], cmd_panel))
@@ -316,4 +316,5 @@ def correr_bot():
                 await asyncio.sleep(30)
 
     asyncio.run(_run())
+
 
